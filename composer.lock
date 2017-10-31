@@ -4,8 +4,64 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d488ceabdd2756e87595bf3a06a556c5",
+    "content-hash": "bb56bb5335027960a14ff7fa35932069",
     "packages": [
+        {
+            "name": "azuyalabs/yasumi",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/azuyalabs/yasumi.git",
+                "reference": "ea4cf185ccbfff74be1d502642cb08c735b48ef8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/azuyalabs/yasumi/zipball/ea4cf185ccbfff74be1d502642cb08c735b48ef8",
+                "reference": "ea4cf185ccbfff74be1d502642cb08c735b48ef8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "fzaninotto/faker": "~1.4",
+                "guzzlehttp/guzzle": "~4.0|~5.0|~6.0",
+                "mikey179/vfsstream": "~1.5",
+                "phpunit/phpunit": "~4.7|~5.3",
+                "symfony/console": "~2.3|~3.0",
+                "symfony/process": "~2.3|~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yasumi\\": "src/Yasumi/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sacha Telgenhof",
+                    "email": "me@sachatelgenhof.nl"
+                }
+            ],
+            "description": "Yasumi is an easy PHP Library for calculating national holidays.",
+            "keywords": [
+                "Bank",
+                "calculation",
+                "calendar",
+                "celebration",
+                "date",
+                "holiday",
+                "holidays",
+                "national",
+                "time"
+            ],
+            "time": "2016-06-04T01:36:49+00:00"
+        },
         {
             "name": "composer/ca-bundle",
             "version": "1.0.8",

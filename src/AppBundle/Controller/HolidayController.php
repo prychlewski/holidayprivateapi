@@ -7,9 +7,17 @@ use FOS\RestBundle\Controller\Annotations\Get;
 use FOS\RestBundle\Controller\Annotations\Route;
 use FOS\RestBundle\Controller\FOSRestController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Yasumi\Yasumi;
 
 class HolidayController extends FOSRestController
 {
+    private $holidays;
+
+    public function __construct()
+    {
+        $this->holidays = Yasumi::create('Poland', date('Y'));
+    }
+
     /**
      * @Route("/holidays/count", name="count")
      *
