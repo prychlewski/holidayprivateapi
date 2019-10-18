@@ -19,6 +19,7 @@
         "friendsofsymfony/rest-bundle": "*",
         "jms/serializer-bundle": "*",
         "league/tactician": "^1.0",
+        "lexik/jwt-authentication-bundle": "^2.6",
         "symfony/swiftmailer-bundle": "*",
         "symfony/symfony": "4.3.*"
     },
