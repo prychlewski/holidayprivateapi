@@ -10,11 +10,14 @@ class MemberController extends FOSRestController
 {
     /**
      * @param $username
+     *
+     * Route("/user/register", name="count")
+     *
+     * @Post("/user/register")
      */
     public function registerUser($username): void
     {
         $username = isset($argv[1]) ? $argv[1] : null;
         $commandBus->handle(new RegisterMember($username));
-
     }
 }
